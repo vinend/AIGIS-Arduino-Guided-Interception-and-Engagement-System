@@ -1,5 +1,9 @@
 # AIGIS - Arduino Guided Interception and Engagement System
 
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Assembly](https://img.shields.io/badge/AVR--ASM-grey?style=for-the-badge&logo=none&logoColor=white)
+
 **Kelompok 10**
 Anggota Kelompok:
 - Andi Muhammad Alvin Farhansyah (2306161933)
@@ -2196,7 +2200,31 @@ Akan tetapi, range yang dimiliki oleh infrared sensornya masih sangat kurang unt
 Sistem pertahanannya juga masih bersifat passive karena hanya bisa memberikan alert dan membutuhkan orang atau sistem lain.
 
 
-## V. Conclusion and future work
+## V. Tech Stack and Tools Used
+
+### Hardware Components
+- 2x Arduino UNO R3 Microcontrollers
+- 2x SG90 Servo Motors
+- IR (Infrared) Obstacle Sensor
+- I2C LCD Display Module
+- LED and Buzzer for alerts
+- Resistors and wiring components
+
+### Software and Development Tools
+- AVR Assembly (`.S` files) - Core system logic
+- Arduino IDE/C++ (`.ino` files) - Interrupt handling and hardware initialization
+- Proteus - Circuit simulation and testing
+- Visual Studio Code - Code development
+- AVR-GCC Compiler - Assembly code compilation
+- Arduino Wire Library - I2C communication
+- Arduino Servo Library - Servo motor control
+
+### Communication Protocols
+- I2C (Inter-Integrated Circuit) - For Master-Slave communication
+- UART - For LCD display communication
+- PWM (Pulse Width Modulation) - For servo control
+
+## VI. Conclusion and future work
 
 **AIGIS (Arduino Guided Interception and Engagement System)** adalah sistem pengawasan dan peringatan terhadap semua objek yang ada di sekitarnya. 
 
